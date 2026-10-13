@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Build portfolio website",
+        "description": "Create a professional developer portfolio.",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "title": "Build TaskFlow",
+        "description": "Create a full-stack task management application.",
+        "completed": true
+    },
+    {
+        "id": 4,
+        "title": "Learn EJS",
+        "description": "Practice server-side rendering.",
+        "completed": true
+    },
+    {
+        "id": 7,
+        "title": "Learn Node.js",
+        "description": "Building a professional full stack website using node.js",
+        "completed": false
+    },
+    {
+        "id": 12,
+        "title": "Finish and Polish Flow Task",
+        "description": "Finish the existing and on going Flow Task Backend Website",
+        "completed": false
+    }
+]

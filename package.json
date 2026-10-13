@@ -1,0 +1,22 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "A responsive task management web application built with Node.js, Express.js, EJS, and Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "task-management",
+    "nodejs",
+    "express",
+    "ejs",
+    "javascript",
+    "bootstrap",
+    "portfolio-project"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "type": "module"
+}

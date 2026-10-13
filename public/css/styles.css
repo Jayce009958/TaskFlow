@@ -1,0 +1,140 @@
+/* ==========================
+   Global Styles
+========================== */
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* ==========================
+   Navbar
+========================== */
+
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+.navbar .nav-link {
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #adb5bd;
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+.btn {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:focus-visible {
+  outline: 3px solid rgba(13, 110, 253, 0.35);
+  outline-offset: 2px;
+}
+
+/* ==========================
+   Cards
+========================== */
+
+.card {
+  border-radius: 12px;
+}
+
+.card.shadow-sm,
+.card.shadow {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card.shadow-sm:hover,
+.card.shadow:hover {
+  transform: translateY(-3px);
+}
+
+/* ==========================
+   Page Headings
+========================== */
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.5px;
+}
+
+/* ==========================
+   Task Cards
+========================== */
+
+.card-title a {
+  transition: color 0.2s ease;
+}
+
+.card-title a:hover {
+  color: #0d6efd !important;
+}
+
+/* ==========================
+   Footer
+========================== */
+
+footer {
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+/* ==========================
+   Responsive Adjustments
+========================== */
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .navbar .nav-link {
+    margin-left: 0;
+    padding: 10px 0;
+  }
+}
+
+/* ==========================
+   Page Layout
+========================== */
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
