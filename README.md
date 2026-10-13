@@ -67,6 +67,24 @@ TaskFlow is a task management web application built with Node.js, Express.js, an
 
 TaskFlow stores task information in `data/tasks.json`. The application reads and updates this file when tasks are created, edited, deleted, or marked as completed.
 
+## Screenshots
+
+### Home Page
+
+![TaskFlow Home Page](screenshots/home.png)
+
+### Dashboard
+
+![TaskFlow Dashboard](screenshots/dashboard.png)
+
+### Tasks Page
+
+![TaskFlow Tasks Page](screenshots/tasks.png)
+
+### Add Task Page
+
+![TaskFlow Add Task Page](screenshots/add-task.png)
+
 ## Project Purpose
 
 This project was developed as a portfolio project to practice backend development, server-side rendering, routing, form handling, input validation, and file-based data management.
